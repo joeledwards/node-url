@@ -1,11 +1,12 @@
 # node-url
 
-[![Build Status](https://travis-ci.org/defunctzombie/node-url.svg?branch=master)](https://travis-ci.org/defunctzombie/node-url)
+[![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url]
 
 This module has utilities for URL resolution and parsing meant to have feature parity with node.js core [url](http://nodejs.org/api/url.html) module.
 
 ```js
-var url = require('url');
+var url = require('@buzuli/url');
 ```
 
 ## api
@@ -106,3 +107,8 @@ an anchor tag.  Examples:
     url.resolve('/one/two/three', 'four')         // '/one/two/four'
     url.resolve('http://example.com/', '/one')    // 'http://example.com/one'
     url.resolve('http://example.com/one', '/two') // 'http://example.com/two'
+
+[travis-url]: https://travis-ci.org/joeledwards/node-url
+[travis-image]: https://img.shields.io/travis/joeledwards/node-url/master.svg
+[npm-url]: https://www.npmjs.com/package/@buzuli/url
+[npm-image]: https://img.shields.io/npm/v/@buzuli/url.svg
