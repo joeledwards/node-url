@@ -8,6 +8,9 @@
   },
   "main": "./url.js",
   "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
     "url.js",
     "util.js"
   ],
